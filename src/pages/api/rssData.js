@@ -63,8 +63,7 @@ function replaceBrWithNewline(text) {
 }
 
 export default async function handler(req, res) {
-    const url = 'https://torgi.gov.ru/new/api/public/lotcards/rss?dynSubjRF=80,63&biddForm=EA,PA&chars=&lotStatus=PUBLISHED,APPLICATIONS_SUBMISSION&biddEndFrom=&biddEndTo=&pubFrom=&pubTo=&aucStartFrom=&aucStartTo=&catCode=301&text=&matchPhrase=false&amoOrgCode=&npa=&byFirstVersion=true';
-    const url1 = 'https://torgi.gov.ru/new/api/public/lotcards/rss?dynSubjRF=63,80&biddType=ZK&biddForm=&currCode=&chars=&lotStatus=PUBLISHED,APPLICATIONS_SUBMISSION&biddEndFrom=&biddEndTo=&pubFrom=&pubTo=&aucStartFrom=&aucStartTo=&etpCode=&text=&matchPhrase=false&noticeStatus=&amoOrgCode=&npa=&byFirstVersion=true';
+    const url = "https://torgi.gov.ru/new/api/public/lotcards/rss?dynSubjRF=80,63&biddType=ZK&biddForm=EA,PA&chars=&lotStatus=PUBLISHED,APPLICATIONS_SUBMISSION&biddEndFrom=&biddEndTo=&pubFrom=&pubTo=&aucStartFrom=&aucStartTo=&catCode=301&text=&matchPhrase=false&amoOrgCode=&npa=&byFirstVersion=true";
 
     try {
         const response = await fetch(url);

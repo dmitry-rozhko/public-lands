@@ -1,0 +1,8 @@
+{
+    "functions": {
+      "api/rssData.js": {
+        "maxDuration": 60
+      }
+    }
+  }
+  
