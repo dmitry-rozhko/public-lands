@@ -1,6 +1,6 @@
 {
     "functions": {
-      "api/rssData.js": {
+      "pages/api/rssData.js": {
         "maxDuration": 60
       }
     }
